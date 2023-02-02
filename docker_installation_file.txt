@@ -1,0 +1,5 @@
+#!/bin/bash
+sudo hostname node1
+sudo apt update -y
+sudo apt install docker.io -y
+sudo usermod -aG docker ubuntu
